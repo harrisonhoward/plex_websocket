@@ -1,0 +1,17 @@
+name = "plex_websocket"
+version = "1.0.0"
+gleam = ">= 1.4.0"
+target = "erlang"
+
+description = "Connect to an existing Plex Media Server via a WebSocket client."
+licenses = ["MIT"]
+repository = { type = "github", user = "harrisonhoward", repo = "plex_websocket" }
+links = [
+    { title = "Related Project", href = "https://github.com/harrisonhoward/plex_discord_rpc" },
+]
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
